@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:padding="@dimen/default_spacing"
+    android:background="@color/forecast_color">
+
+<TableRow>
+    <ImageView
+        android:id="@+id/thunder"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/forecast_icon_height"
+        android:layout_margin="@dimen/default_spacing"
+        android:src="@drawable/ic_thunder"
+        />
+    <ImageView
+        android:id="@+id/fog"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/forecast_icon_height"
+        android:layout_margin="@dimen/default_spacing"
+        android:src="@drawable/ic_fog"
+        />
+
+    <ImageView
+        android:id="@+id/rain"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/forecast_icon_height"
+        android:layout_margin="@dimen/default_spacing"
+        android:src="@drawable/ic_rain"
+        />
+
+
+
+</TableRow>
+
+<TableRow>
+    <ImageView
+        android:id="@+id/sun"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/forecast_icon_height"
+        android:layout_margin="@dimen/default_spacing"
+        android:src="@drawable/ic_sun"
+        />
+
+
+    <ImageView
+        android:id="@+id/cloud"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/forecast_icon_height"
+        android:layout_margin="@dimen/default_spacing"
+        android:src="@drawable/ic_cloud"
+        />
+
+
+    <ImageView
+        android:id="@+id/snow"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/forecast_icon_height"
+        android:layout_margin="@dimen/default_spacing"
+        android:src="@drawable/ic_snow"
+        />
+
+
+
+</TableRow>
+</TableLayout>
